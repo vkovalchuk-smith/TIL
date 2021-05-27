@@ -1,1 +1,8 @@
-
+1. Create a personal GitHub account.
+2. Create your GitHub profile README: introduce yourself and describe why do you want to learn Automated Testing.
+3. Create your first public repository named "TIL" (which stands for "Today I Learned") with the initial README file and Apache 2.0 license.
+4. Follow further GitHub instructions to clone your repository locally.
+5. Organize your repository's folders structure the way it'd be easy to add and group a new material in the future. Feel free to inspire yourself by looking at how others do it. ;)
+6. Add your first story about what you have learned today into README following markdown (.md) syntax.
+7. Commit and Push your changes to GitHub.
+8. Add me as a Collaborator to your repository.
