@@ -1,6 +1,11 @@
 # TIL
 ### Today I Learned:
 
+###### 18-June-2021
+1. How to create PICT model. <br>
+1. How to add constraints to the PICT model. <br>
+1. How to convert TXT file to JSON array <br>
+
 ###### 4-June-2021
 1. How to pull Doker container locally. <br>
 1. How to set up and run local server. <br>
