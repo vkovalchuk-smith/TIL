@@ -1,0 +1,92 @@
+Application_Type	Mobile_Platform	Browser	Programming_Language	Unit_Framework	Web_Frameworks	Mobile_Frameworks	Infrastructure
+Web	N/A	Firefox	Python	Unittest	WebdriverIO	N/A	Selenium Grid
+Hybrid	Android	Chrome	JS	Jest	CodeceptJS	Detox	Selenoid
+Hybrid	iOS	Safari	Python	Unittest	CodeceptJS	Xamarin	Selenium Grid
+Hybrid	iOS	Firefox	JS	Jest	Playwrite	Appium	Selenium Grid
+Hybrid	iOS	Safari	Java	JUnit	Cypress	Espresso	Selenoid
+Hybrid	Android	Chrome	C#	N/A	Cypress	XCUITest	Selenium Grid
+Hybrid	Android	Firefox	Java	JUnit	Serenity	Detox	Selenium Grid
+Web	N/A	Safari	JS	Mocha	Cypress	N/A	Selenoid
+Hybrid	Android	Firefox	Java	TestNG	Cypress	Xamarin	Selenoid
+Mobile Native	Android	N/A	Java	JUnit	N/A	Appium	Selenium Grid
+Mobile Native	iOS	N/A	JS	Jasmine	N/A	Espresso	Selenium Grid
+Hybrid	iOS	Safari	Swift	N/A	Selenide	Appium	Selenoid
+Hybrid	Android	Firefox	JS	Jasmine	Selenide	XCUITest	Selenoid
+Hybrid	iOS	Chrome	Java	JUnit	WebdriverIO	XCUITest	Selenoid
+Hybrid	Android	Chrome	Python	Unittest	Selenide	Detox	Selenoid
+Hybrid	Android	Chrome	JS	Mocha	Selenide	Xamarin	Selenium Grid
+Web	N/A	Chrome	Java	TestNG	CodeceptJS	N/A	Selenium Grid
+Hybrid	iOS	Safari	Java	TestNG	Helium	Espresso	Selenium Grid
+Web	N/A	Safari	JS	Jest	Puppeteer	N/A	Selenoid
+Mobile Native	iOS	N/A	Python	Nose2	N/A	N/A	Selenium Grid
+Hybrid	Android	Chrome	JS	Jest	Selenide	Espresso	Selenoid
+Web	N/A	Chrome	Java	JUnit	Selenide	N/A	Selenium Grid
+Hybrid	iOS	Safari	JS	Jasmine	Playwrite	Detox	Selenoid
+Hybrid	iOS	Safari	Python	Nose2	Serenity	XCUITest	Selenoid
+Hybrid	iOS	Safari	JS	Jest	WebdriverIO	Xamarin	Selenium Grid
+Hybrid	Android	Chrome	JS	Jasmine	Puppeteer	Xamarin	Selenium Grid
+Hybrid	Android	Firefox	Python	PyTest	Serenity	Espresso	Selenium Grid
+Hybrid	iOS	Firefox	JS	Jasmine	CodeceptJS	Appium	Selenoid
+Hybrid	Android	Chrome	Python	Unittest	Serenity	Appium	Selenoid
+Hybrid	iOS	Firefox	JS	Mocha	Helium	Detox	Selenoid
+Hybrid	iOS	Chrome	Python	PyTest	Puppeteer	Detox	Selenoid
+Hybrid	iOS	Firefox	Java	JUnit	Puppeteer	Xamarin	Selenoid
+Hybrid	iOS	Firefox	C#	N/A	Helium	Xamarin	Selenoid
+Hybrid	Android	Chrome	Python	Nose2	WebdriverIO	Detox	Selenium Grid
+Web	N/A	Safari	C#	N/A	Serenity	N/A	Selenium Grid
+Hybrid	iOS	Safari	Python	Unittest	Puppeteer	XCUITest	Selenium Grid
+Hybrid	Android	Chrome	JS	Jasmine	Cypress	Detox	Selenium Grid
+Hybrid	Android	Firefox	Python	Nose2	Helium	Appium	Selenium Grid
+Hybrid	Android	Chrome	Python	Nose2	Playwrite	Xamarin	Selenium Grid
+Hybrid	iOS	Chrome	JS	Mocha	CodeceptJS	XCUITest	Selenium Grid
+Hybrid	iOS	Firefox	JS	Mocha	Playwrite	Espresso	Selenium Grid
+Mobile Native	iOS	N/A	Java	TestNG	N/A	Detox	Selenium Grid
+Hybrid	iOS	Firefox	Swift	N/A	Puppeteer	Espresso	Selenium Grid
+Mobile Native	Android	N/A	Python	PyTest	N/A	XCUITest	Selenium Grid
+Hybrid	iOS	Chrome	Python	Nose2	Cypress	Appium	Selenoid
+Hybrid	Android	Firefox	JS	Jest	Cypress	XCUITest	Selenium Grid
+Hybrid	iOS	Safari	Java	TestNG	Serenity	Xamarin	Selenoid
+Hybrid	Android	Chrome	Java	TestNG	Selenide	Appium	Selenium Grid
+Hybrid	iOS	Safari	Python	Nose2	CodeceptJS	Espresso	Selenoid
+Web	N/A	Chrome	Python	Unittest	Helium	N/A	Selenium Grid
+Hybrid	Android	Chrome	Python	Nose2	Puppeteer	Appium	Selenoid
+Hybrid	iOS	Safari	Python	PyTest	Selenide	Xamarin	Selenoid
+Web	N/A	Firefox	C#	N/A	Playwrite	N/A	Selenium Grid
+Hybrid	Android	Firefox	Java	JUnit	Playwrite	XCUITest	Selenoid
+Web	N/A	Firefox	JS	Jasmine	WebdriverIO	N/A	Selenium Grid
+Hybrid	Android	Chrome	JS	Mocha	Puppeteer	Appium	Selenium Grid
+Mobile Native	Android	N/A	JS	Jest	N/A	Xamarin	Selenium Grid
+Hybrid	iOS	Chrome	JS	Jasmine	Helium	XCUITest	Selenoid
+Web	N/A	Chrome	JS	Jest	Helium	N/A	Selenoid
+Hybrid	iOS	Chrome	Swift	N/A	CodeceptJS	Detox	Selenium Grid
+Hybrid	Android	Firefox	Python	Unittest	Cypress	Espresso	Selenium Grid
+Web	N/A	Chrome	Python	PyTest	CodeceptJS	N/A	Selenoid
+Hybrid	iOS	Chrome	Python	PyTest	Helium	Appium	Selenium Grid
+Mobile Native	Android	N/A	Python	Unittest	N/A	N/A	Selenium Grid
+Hybrid	iOS	Firefox	JS	Mocha	WebdriverIO	Espresso	Selenoid
+Hybrid	Android	Firefox	Java	TestNG	WebdriverIO	Appium	Selenoid
+Hybrid	iOS	Safari	JS	Jasmine	Serenity	XCUITest	Selenium Grid
+Mobile Native	iOS	N/A	Swift	N/A	N/A	N/A	Selenium Grid
+Hybrid	iOS	Safari	Python	Unittest	Playwrite	Appium	Selenoid
+Hybrid	Android	Chrome	Python	PyTest	Cypress	Appium	Selenium Grid
+Hybrid	iOS	Safari	Java	TestNG	Playwrite	XCUITest	Selenium Grid
+Hybrid	iOS	Safari	C#	N/A	WebdriverIO	Appium	Selenium Grid
+Hybrid	Android	Firefox	Python	Nose2	Selenide	XCUITest	Selenium Grid
+Hybrid	iOS	Firefox	Swift	N/A	Cypress	XCUITest	Selenium Grid
+Hybrid	iOS	Safari	JS	Mocha	Serenity	Xamarin	Selenium Grid
+Hybrid	Android	Chrome	C#	N/A	Selenide	Espresso	Selenoid
+Hybrid	Android	Firefox	Java	JUnit	Helium	Xamarin	Selenoid
+Hybrid	iOS	Safari	Swift	N/A	Helium	Xamarin	Selenium Grid
+Hybrid	iOS	Safari	Python	PyTest	WebdriverIO	Detox	Selenoid
+Hybrid	iOS	Firefox	Swift	N/A	WebdriverIO	Espresso	Selenium Grid
+Hybrid	iOS	Safari	Swift	N/A	Playwrite	Espresso	Selenium Grid
+Hybrid	iOS	Chrome	Java	JUnit	CodeceptJS	Detox	Selenoid
+Mobile Native	Android	N/A	C#	N/A	N/A	Detox	Selenium Grid
+Hybrid	iOS	Firefox	Java	TestNG	Puppeteer	Xamarin	Selenium Grid
+Hybrid	Android	Firefox	C#	N/A	CodeceptJS	Espresso	Selenium Grid
+Web	N/A	Safari	Python	PyTest	Playwrite	N/A	Selenoid
+Mobile Native	iOS	N/A	JS	Mocha	N/A	Xamarin	Selenium Grid
+Web	N/A	Safari	C#	N/A	Puppeteer	N/A	Selenoid
+Web	N/A	Safari	Python	Nose2	Serenity	N/A	Selenoid
+Hybrid	iOS	Safari	JS	Jest	Serenity	XCUITest	Selenoid
+Hybrid	iOS	Safari	Swift	N/A	Serenity	Espresso	Selenoid
