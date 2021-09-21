@@ -1,0 +1,23 @@
+#Fields
+Application_Type: Web, Mobile Native, Hybrid
+Mobile_Platform: iOS, Android, N/A
+Browser: Chrome, Firefox, Safari, N/A
+Programming_Language: Java, JS, Python, Swift, C#
+Unit_Framework: TestNG, JUnit, Mocha, Jest, Jasmine, PyTest, Unittest, Nose2, N/A
+Web_Frameworks: Selenide, Serenity, WebdriverIO, Cypress, CodeceptJS, Puppeteer, Playwrite, Helium, N/A
+Mobile_Frameworks: Appium, Espresso, XCUITest, Detox, Xamarin, N/A
+Infrastructure: Selenium Grid, Selenoid
+
+#Conditions for Application_Type
+IF [Application_Type] = "Web" THEN [Mobile_Platform] = "N/A" AND [Mobile_Frameworks] = "N/A" AND [Programming_Language] <> "Swift" AND [Browser] <> "N/A" AND [Web_Frameworks] <> "N/A";
+IF [Application_Type] = "Mobile Native" THEN [Mobile_Platform] <> "N/A" AND [Browser] = "N/A" AND [Web_Frameworks] = "N/A" AND [Infrastructure] <> "Selenoid";
+IF [Application_Type] = "Hybrid" THEN [Mobile_Platform] <> "N/A" AND [Browser] <> "N/A" AND [Web_Frameworks] <> "N/A" AND  [Mobile_Frameworks] <> "N/A";
+
+#Conditions for Mobile_Platform
+IF [Mobile_Platform] = "Android" THEN [Browser] <> "Safari" AND [Programming_Language] <> "Swift";
+
+#Conditions for Programming_Language
+IF [Programming_Language] = "Java" THEN [Unit_Framework] = "TestNG" OR [Unit_Framework] = "JUnit";
+IF [Programming_Language] = "JS" THEN [Unit_Framework] = "Mocha" OR [Unit_Framework] = "Jest" OR [Unit_Framework] = "Jasmine";
+IF [Programming_Language] = "Python" THEN [Unit_Framework] = "PyTest" OR [Unit_Framework] = "Unittest" OR [Unit_Framework] = "Nose2";
+IF ([Programming_Language] = "C#" OR [Programming_Language] = "Swift") THEN [Unit_Framework] = "N/A";
